@@ -84,6 +84,11 @@ body {
   line-height: 1;
   letter-spacing: -.05rem;
 }
+.featurette-image {  /* Added by Vessy*/
+
+max-width: 100%/9;
+max-height: auto;
+}
 
 
 /* RESPONSIVE CSS
