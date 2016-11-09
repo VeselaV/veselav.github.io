@@ -102,8 +102,10 @@
           <h2>Pancakes</h2>
           <p>Here are some of London's best spots for pancakes. Or you can make them yourself. Click below for a healthy pancake recipe!</p>
           <div id="buttonslide">
-          <p><a class="btn btn-primary btn-sm" href="#PancakesIn" role="button">Brunch In</a>
-          <a class="btn btn-primary btn-sm" href="#PancakesOut" role="button">Brunch Out</a></p>
+            <p>
+              <a class="btn btn-primary btn-sm" href="#PancakesIn" role="button">Brunch In</a>
+              <a class="btn btn-primary btn-sm" href="#PancakesOut" role="button">Brunch Out</a>
+            </p>
           </div>
         </div>
         <li><!-- /.col-lg-4 -->
@@ -177,7 +179,7 @@
           <p class="lead"> Delicious Eggs Royale and a perfect shot of coffee is all we want for a Saturday brunch. The team of Bistrò by Shot is always smiley, helpful and ready to experiment in order to indulge its customers. Classic eggs options or any other seasonal dishes with a French-Italian twist are on offer there. If you need an energizing drink, give a try of the freshly squeezed green juices.</p>
         </div>
         <div class="col-md-5">
-          <img is="EggsOut" class="featurette-image img-fluid mx-auto" src="../bistrobyshot/atmosphere.jpg" alt="atmosphereatbistro" style="width:542px;height:329px"> <!-- Deleted the following: "featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image" Vessy-->
+          <img is="EggsOut" class="featurette-image img-fluid mx-auto" src="./bistrobyshot/atmosphere.jpg" alt="atmosphereatbistro" style="width:542px;height:329px"> <!-- Deleted the following: "featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image" Vessy-->
         </div>
       </div>
 
@@ -292,10 +294,10 @@
 <script>
 $(document).ready(function(){
   // Add scrollspy to <body>
-  $('body').scrollspy({target: ".buttonscroll", offset: 50});
+  $('body').scrollspy({target: ".navbar", offset: 50});
 
   // Add smooth scrolling on all links inside the navbar
-  $("#buttonscroll").on('click', function(event) {
+  $("# a").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior
