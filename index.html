@@ -101,12 +101,12 @@
           <img class="img-circle" src="Pancake1.jpg" alt="Pancakes" width="140" height="140">
           <h2>Pancakes</h2>
           <p>Here are some of London's best spots for pancakes. Or you can make them yourself. Click below for a healthy pancake recipe!</p>
-          <div id="buttonslide">
+          
             <p>
               <a id="pancakebtn" class="btn btn-primary btn-sm" href="#PancakesIn" role="button">Brunch In</a>
-              <a class="btn btn-primary btn-sm" href="#PancakesOut" role="button">Brunch Out</a>
+              <a id="pancakebtn2" class="btn btn-primary btn-sm" href="#PancakesOut" role="button">Brunch Out</a>
             </p>
-          </div>
+          
         </div>
         <!-- /.col-lg-4 -->
         <div class="col-lg-3">
@@ -114,8 +114,8 @@
           <h2>Granola</h2>
           <p>Everyone loves a good bowl of granola. For some great spots, try out or customise your brunch & make your own!</p>
            
-          <p><a class="btn btn-primary btn-sm" href="#GranolaIn" role="button">Brunch In</a>
-          <a class="btn btn-primary btn-sm" href="#GranolaOut" role="button">Brunch Out</a></p>
+          <p><a id="granolabtn" class="btn btn-primary btn-sm" href="#GranolaIn" role="button">Brunch In</a>
+          <a id="granolabtn2" class="btn btn-primary btn-sm" href="#GranolaOut" role="button">Brunch Out</a></p>
           
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-3">
@@ -123,8 +123,8 @@
           <h2>Eggs</h2>
           <p> Poached eggs, please! They will come on a toast with salmon. Check out our indulging healthy options too.</p>
              
-          <p><a class="btn btn-primary btn-sm" href="#EggsIn" role="button">Brunch In </a>
-          <a class="btn btn-primary btn-sm" href="#EggsOut" role="button">Brunch Out</a></p>
+          <p><a id="eggsbtn" class="btn btn-primary btn-sm" href="#EggsIn" role="button">Brunch In </a>
+          <a id="eggsbtn2" class="btn btn-primary btn-sm" href="#EggsOut" role="button">Brunch Out</a></p>
           
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-3">
@@ -133,9 +133,9 @@
           <p>You can experience one of the best Full English breakfast at Muriel's Kitchen. If you fancy a healthier option, check out our suggestion. </p>
              
           <p>
-            <a class="btn btn-primary btn-sm" href="#EnglishIn" role="button">Brunch In
+            <a id="englishbtn" class="btn btn-primary btn-sm" href="#EnglishIn" role="button">Brunch In
             </a>
-            <a class="btn btn-primary btn-sm" href="#EnglishOut" role="button">Brunch Out
+            <a id="englishbtn2" class="btn btn-primary btn-sm" href="#EnglishOut" role="button">Brunch Out
             </a>
           </p>
           
@@ -297,7 +297,7 @@
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 <script type="text/javascript">
-  // Button one
+  // Pancake In button
   $("#pancakebtn").click(function() {
       var offset = 20; //Offset of 20px
 
@@ -306,12 +306,60 @@
       }, 1000);
   });
 
-  // Button two
+  // Pancake Out button
   $("#pancakebtn2").click(function() {
       var offset = 20; //Offset of 20px
 
       $('html, body').animate({
           scrollTop: $("#PancakesOut").offset().top + offset
+      }, 1000);
+  });
+  // Granola In button
+  $("#granolabtn").click(function() {
+      var offset = 20; //Offset of 20px
+
+      $('html, body').animate({
+          scrollTop: $("#GranolaIn").offset().top + offset
+      }, 1000);
+  });
+  // Granola Out button
+  $("#granolabtn2").click(function() {
+      var offset = 20; //Offset of 20px
+
+      $('html, body').animate({
+          scrollTop: $("#GranolaOut").offset().top + offset
+      }, 1000);
+  });
+  // Eggs In button
+  $("#eggsbtn").click(function() {
+      var offset = 20; //Offset of 20px
+
+      $('html, body').animate({
+          scrollTop: $("#EggsIn").offset().top + offset
+      }, 1000);
+  });
+  // Eggs Out button
+  $("#eggsbtn2").click(function() {
+      var offset = 20; //Offset of 20px
+
+      $('html, body').animate({
+          scrollTop: $("#EggsOut").offset().top + offset
+      }, 1000);
+  });
+   // English In button
+  $("#englishbtn").click(function() {
+      var offset = 20; //Offset of 20px
+
+      $('html, body').animate({
+          scrollTop: $("#EnglishIn").offset().top + offset
+      }, 1000);
+  });
+   // English Out button
+  $("#englishbtn2").click(function() {
+      var offset = 20; //Offset of 20px
+
+      $('html, body').animate({
+          scrollTop: $("#EnglishOut").offset().top + offset
       }, 1000);
   });
 </script>
