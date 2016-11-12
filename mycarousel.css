@@ -50,6 +50,14 @@ body {
   margin-bottom: .25rem;  /* Changed from .25rem to .20rem Vessy */
 }
 
+#id .logo {
+
+  align-content: center;
+}
+
+
+
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
