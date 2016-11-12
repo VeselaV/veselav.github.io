@@ -24,6 +24,7 @@ html *
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+  font-family: "Special Elite";
 }
 
 /* Declare heights because of positioning of img element */
@@ -66,7 +67,8 @@ html *
 .marketing .col-lg-3 { /* Changed from lg-4 to lg-3 */
   margin-bottom: 1.5rem;
   text-align: center;
-  display: inline-block; /* Added to align all 4 elements Vessy */
+  display: inline-block;
+  font-family: "Special Elite" ; /* Added to align all 4 elements Vessy */
 }
 .marketing h2 {
   font-weight: normal;
