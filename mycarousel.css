@@ -69,10 +69,12 @@
 }
 .marketing h2 {
   font-weight: normal;
+  font-family: "Special Elite";
 }
 .marketing .col-lg-3 p { /* Changed from lg-4 to lg-3 */
   margin-right: .75rem; /* Changed from 75rem to 70rem Vessy */
   margin-left: .75rem;
+  font-family: "Special Elite";
 }
 
   
@@ -90,6 +92,7 @@
   font-weight: 300;
   line-height: 1;
   letter-spacing: -.05rem;
+  font-family: "Special Elite";
 }
 .featurette-image {  /* Added by Vessy*/
 
