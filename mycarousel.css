@@ -5,12 +5,9 @@
 .body {
   padding-bottom: 3rem;
   color: #5a5a5a;
+  font-family: "Special Elite" !important;
 }
-html *
-{
-  
-   font-family: "Special Elite" !important;
-}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
