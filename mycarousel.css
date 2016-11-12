@@ -1,11 +1,7 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-html *
-{
- 
-   font-family: "Special Elite" !important;
-}
+
 .body {
   padding-bottom: 3rem;
   color: #5a5a5a;
@@ -63,22 +59,33 @@ html *
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
-
+.p {
+  font-family: "Special Elite";
+}
+.h1 {
+  font-family: "Special Elite";
+}
+.h2 {
+  font-family: "Special Elite";
+}
+.h3 {
+  font-family: "Special Elite";
+}
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-3 { /* Changed from lg-4 to lg-3 */
   margin-bottom: 1.5rem;
   text-align: center;
   display: inline-block;
-  font-family: "Special Elite" ; /* Added to align all 4 elements Vessy */
+   /* Added to align all 4 elements Vessy */
 }
 .marketing h2 {
   font-weight: normal;
-  font-family: "Special Elite";
+  
 }
 .marketing .col-lg-3 p { /* Changed from lg-4 to lg-3 */
   margin-right: .75rem; /* Changed from 75rem to 70rem Vessy */
   margin-left: .75rem;
-  font-family: "Special Elite";
+  
 }
 
   
