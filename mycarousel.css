@@ -93,6 +93,9 @@
   line-height: 1;
   letter-spacing: -.05rem;
   font-family: "Special Elite";
+  float:left; /* Added by Vessy*/
+  padding-left: 5px;
+  padding-right: 10px;
 }
 .featurette-image {  /* Added by Vessy*/
 
