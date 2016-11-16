@@ -66,10 +66,11 @@
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
-.p {
+@media (max-width: @screen-xs) {.p {
   font-family: "Special Elite";
+  font-size: 12px;
+}}
 
-}
 .h1 {
   font-family: "Special Elite";
 }
